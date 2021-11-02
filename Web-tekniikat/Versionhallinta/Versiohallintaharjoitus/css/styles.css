@@ -1,0 +1,113 @@
+/* 
+    Created on : Aug 24, 2018, 10:00:46 AM
+    Author     : Liisa Auer
+*/
+body {
+    background-color: #e6e6e6;
+}
+
+div, 
+nav, 
+header {
+    background-color: snow;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 20px 20px;
+    font-family: tahoma;
+    border-radius: 10px;
+}
+
+nav,
+header {
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+}
+
+nav li {
+    display: inline-block;     
+}
+
+nav li a {
+    display: block;  
+    background-color: #E4F1F6;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;     
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #E4F1F6;
+}
+
+nav li a:hover {
+    background-color: #67AFCB;
+    color: #E4F1F6;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: Georgia;
+}
+
+h1 {
+    color: #092834;
+}
+
+h2 {
+    color: #1A3E4C;
+}
+
+h3 {
+    color: #347B98;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A3E4C;
+}
+
+a:visited {
+    color: #1A3E4C;
+}
+
+a:hover {
+    color: #347B98;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin-left: 0;
+}
+
+figcaption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol,
+ul {
+    padding-left: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.different-font {
+    font-family: Georgia;
+    font-weight: bold;
+}

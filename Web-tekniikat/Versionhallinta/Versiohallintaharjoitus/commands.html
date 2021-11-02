@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction :: Version control</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="your name">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Version control exercise</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="commands.html">Commands</a></li>
+                <li><a href="numbering.html">Numbering</a></li>
+            </ul>            
+        </nav>
+        <div>
+            <h2>Some version control commands</h2>
+            <ul>
+                <li><span class="different-font">git init </span>
+                    <br>Create a new local repository.                    
+                </li>
+                
+                <li><span class="different-font">git status </span>
+                    <br>List the files you have changed and 
+                    those you still need to add or commit.
+                </li>
+                
+                <li><span class="different-font">git remote add 
+                    origin &lt;server&gt; </span><br>If you have not 
+                    connected your local repository to a remote server, 
+                    add the server to be able to push to it                    
+                </li>
+                
+                <li><span class="different-font">git remote -v </span>
+                    <br>List all currently configured 
+                    remote repositories.                    
+                </li>
+                
+                <li><span class="different-font">git push origin master 
+                    </span><br>Send changes to the 
+                    master branch of your remote repository                    
+                </li>
+                
+                <li><span class="different-font">git add &lt;filename&gt; 
+                    or git add .  </span><br>Add one or more 
+                    files to staging (index).                    
+                </li>
+                
+                <li><span class="different-font">git commit -m 
+                    "Commit message" </span><br>Commit changes to local 
+                    repository but not yet to the remote repository.                    
+                </li>
+            </ul>
+
+            <li><span class="different-font">git commit -a </span>
+                <br>Commit any files you have added with 
+                git add, and also commit any files you have changed 
+                since then.                    
+            </li>
+            
+            <li><span class="different-font">git pull origin master </span>
+                <br>Fetch and merge changes on the remote server 
+                to your working directory master branch.
+            </li>
+            
+            <li><span class="different-font">git log </span>
+                <br>Get a listing of commits.
+            </li>
+            
+            <li><span class="different-font">git branch </span>
+                <br>Get a listing of branches.
+            </li>
+            
+            <li><span class="different-font">git branch name </span>
+                <br>Create a branch.
+            </li>
+            
+            <li><span class="different-font">git checkout name/master </span>
+                <br>Switch to specific branch or master branch.
+            </li>
+            
+            <li><span class="different-font">git push -u origin name </span>
+                <br>Push a new branch to a remote repository. 
+            </li>                
+            
+            <li><span class="different-font">git merge master name </span>
+                <br>Merge branch to a master branch.
+            </li>
+        </div>
+    </body>
+</html>
